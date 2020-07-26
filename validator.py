@@ -117,6 +117,9 @@ def validate_key(key, validation):
     # like (pair) <= [function1, function2, ... functionN]
     # having this validation process implemented we will be just writing new validation functions
     # See my implementation of mapper function above
+
+    # Also
+    # Consider renaming this function (validate_key) into validate_key_with_options or smth and ->
     # Further improvements to this: put validation functions as a parameter to this function and we can use this
     # function as a common interface for each and any Yaml structure
 
